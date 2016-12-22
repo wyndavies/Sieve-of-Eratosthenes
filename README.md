@@ -3,8 +3,7 @@ A java implementation of the Sieve of Eratosthenes, using multi-threading
 
 I wanted to experiment with multi-threading and inter-thread communication in Java, so I implemented the Sieve of Eratosthenes. This is a process for finding Prime Numbers that lends itself well to multi-threading.
 
-This is an implementation of the sieve of Eratosthenes. He worked out the first reliable way of finding
-prime numbers. It also lends itself well to multi-threading.
+Eratosthenes worked out the first reliable way of finding prime numbers.
 We pick a maximum number and then use sifters to find all the prime numbers from 2 to max.
 First we take the smallest number in the list - 2 - and use this as the first sifter.
 We remove all numbers that can be evenly divided by 2 from the list. The smallest number left is a prime
